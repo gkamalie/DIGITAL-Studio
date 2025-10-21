@@ -11,7 +11,7 @@
 
   &-astronaut {
     display: block;
-    height: 500px;
+    height: 600px;
     z-index: 2;
   }
 
@@ -25,7 +25,7 @@
     width: 200px;
 
     &-subtext {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 1.6;
       margin-top: 20px;
       white-space: normal;
@@ -46,17 +46,15 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateY(-50%) translateX(220px);
+    padding: 40px;
     color: white;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 6px;
+    gap: 10px;
+    margin-right: auto;
+
 
     &-subtitle {
       font-size: 18px;
-      letter-spacing: 2px;
-      margin-bottom: 6px;
     }
 
     &-title {
