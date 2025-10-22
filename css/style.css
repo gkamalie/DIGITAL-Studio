@@ -63,7 +63,7 @@
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translateY(-50%) translateX(-220px);
+  transform: translateY(-60%) translateX(-220px);
   color: white;
   text-align: left;
   width: 200px;
@@ -78,23 +78,20 @@
   top: 236px;
 }
 .basic_left-line {
-  width: 200px;
+  width: 150px;
   height: 2px;
   background: white;
   margin-bottom: 15px;
 }
 .basic_right {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 40px;
+  left: 40%;
   color: white;
-  display: flex;
-  gap: 10px;
-  margin-right: auto;
+  transform: translateY(5%) translateX(420px);
 }
 .basic_right-subtitle {
   font-size: 18px;
+  letter-spacing: 1.5px;
 }
 .basic_right-title {
   font-size: 60px;
@@ -107,6 +104,7 @@
   color: white;
   position: relative;
   top: 236px;
+  left: 120px;
 }
 
 .about {
