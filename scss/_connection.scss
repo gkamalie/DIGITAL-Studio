@@ -93,6 +93,7 @@
     top: 150px;
   }
 
+
   &_call {
     display: flex;
     justify-content: center;
@@ -104,4 +105,9 @@
     width: 200px;
     margin: 200px auto 0;
   }
+}
+
+.simple-checkbox {
+  height: 15px;
+  width: 15px;
 }

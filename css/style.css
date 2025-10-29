@@ -444,6 +444,11 @@
   margin: 200px auto 0;
 }
 
+.simple-checkbox {
+  height: 15px;
+  width: 15px;
+}
+
 .reviews {
   display: flex;
   background-image: url("../img/fonstola.png");
