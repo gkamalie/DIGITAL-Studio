@@ -1,108 +1,107 @@
 .connection {
   background-image: url("../img/form_bg.jpg");
   height: 600px;
-  padding: 80px 200px 80px 100px;
+  padding: 80px 100px 80px 100px;
   gap: 50px;
   align-items: flex-end;
-}
 
-.connection_container {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 20px;
-  gap: 50px;
-}
+  &_container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    gap: 50px;
+  }
 
-.connection_title {
-  font-size: 24px;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
+  &_title {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
 
-.connection_line {
-  position: relative;
-  height: 1px;
-  background: white;
-  width: 800px;
-  top: 20px;
-}
+  &_line {
+    position: relative;
+    height: 1px;
+    background: white;
+    width: 950px;
+    top: 20px;
+  }
 
-.connection_left {
-  position: relative;
-}
+  &_left {
+    position: relative;
 
-.connection_left-comment {
-  display: flex;
-  justify-content: center;
-  font-size: 18px;
-  color: white;
-  position: relative;
-  top: 22px;
-}
+    &-comment {
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
+      color: white;
+      position: relative;
+      top: 22px;
+    }
 
-.connection_left-line {
-  position: relative;
-  display: flex;
-  height: 3px;
-  background: white;
-  width: 600px;
-  top: 34px;
-  transform: translateX(93%);
-}
+    &-line {
+      position: relative;
+      display: flex;
+      height: 3px;
+      background: white;
+      width: 600px;
+      top: 34px;
+      transform: translateX(93%);
+    }
+  }
 
-.connection_right {
-  position: relative;
-}
+  &_right {
+    position: relative;
 
-.connection_right-name {
-  display: flex;
-  font-size: 18px;
-  color: white;
-  top: 100px;
-}
+    &-name {
+      display: flex;
+      font-size: 18px;
+      color: white;
+      top: 100px;
+    }
 
-.connection_right-line {
-  height: 3px;
-  width: 540px;
-  background: white;
-  position: relative;
-  top: 10px;
-}
+    &-line {
+      height: 3px;
+      width: 540px;
+      background: white;
+      position: relative;
+      top: 10px;
+    }
+  }
 
-.connection_tel {
-  position: relative;
-  font-size: 18px;
-  color: white;
-  top: 100px;
-}
+  &_tel {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    top: 100px;
 
-.connection_tel-line {
-  height: 1px;
-  width: 400px;
-  background: white;
-  position: relative;
-  top: 110px;
-}
+    &-line {
+      height: 1px;
+      width: 530px;
+      background: white;
+      position: relative;
+      top: 110px;
+    }
+  }
 
+  &_subtext {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    color: white;
+    top: 150px;
+  }
 
-.connection_subtext {
-  position: relative;
-  display: flex;
-  justify-content: flex-start;
-  font-size: 18px;
-  color: white;
-  top: 150px;
-}
-
-.connection_call {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  color: white;
-  background-color: rgb(76, 9, 115);
-  padding: 10px;
-  width: 200px;
-  margin: 200px auto 0;
+  &_call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(76, 9, 115);
+    padding: 10px;
+    width: 200px;
+    margin: 200px auto 0;
+  }
 }

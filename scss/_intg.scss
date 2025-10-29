@@ -2,30 +2,30 @@
   background-color: white;
   height: 400px;
   width: 100%;
-}
 
-.intg_title {
-  display: flex;
-  font-size: 24px;
-  text-align: right;
-  margin-top: 80px;
-  margin-right: 150px;
-  text-transform: uppercase;
-  justify-content: flex-end;
-  letter-spacing: 3px;
-}
+  &_title {
+    display: flex;
+    font-size: 24px;
+    text-align: right;
+    margin-top: 80px;
+    margin-right: 150px;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    letter-spacing: 3px;
+  }
 
-.intg_line {
-  height: 2px;
-  background-color: black;
-  max-width: 750px;
-  height: 1px;
-  margin-left: 200px;
-}
+  &_line {
+    height: 2px;
+    background-color: black;
+    max-width: 750px;
+    height: 1px;
+    margin-left: 200px;
+  }
 
-.intg_Logos {
-  display: flex;
-  justify-content: center;
-  padding: 80px;
-  gap: 55px;
+  &_Logos {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    gap: 55px;
+  }
 }

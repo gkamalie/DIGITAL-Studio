@@ -1,0 +1,82 @@
+.reviews {
+  display: flex;
+  background-image: url("../img/fonstola.png");
+  flex-direction: column;
+  height: 800px;
+  padding: 80px 100px 80px 120px;
+  gap: 50px;
+
+  &_container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  &_title {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  &_line {
+    height: 2px;
+    background: white;
+    width: 900px;
+  }
+
+  &_cards {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    width: 400px;
+  }
+
+  &_card {
+    padding: 10px;
+    min-width: 300px;
+    box-sizing: border-box;
+  }
+
+  &_ h3 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  &_ p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+  }
+
+  &_ol {
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+    padding: 5px 5px 5px 10px
+  }
+
+  &_container {
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    width: 800px;
+  }
+
+  &_card-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(90, 58, 106);
+    padding: 5px 5px 5px 5px;
+    height: 700px;
+    display: none; // убрать при задании с гридом 
+  }
+
+  &-text h3 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+}
