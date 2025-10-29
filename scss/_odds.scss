@@ -1,53 +1,52 @@
 .odds {
   height: 700px;
-  background-image: url("../img/fonstola\ 2.png");
+  background-image: url("../img/fonstola2.png");
   width: 100%;
   padding: 100px 40px 100px 165px;
   color: white;
-}
 
-.odds_container {
-  display: flex;
-  align-items: flex-start;
-  align-items: baseline;
-}
+  &_container {
+    display: flex;
+    align-items: flex-start;
+    align-items: baseline;
+  }
 
-.odds_title {
-  font-size: 24px;
-  color: white;
-  text-transform: uppercase;
-  white-space: nowrap;
-  letter-spacing: 3px;
-}
+  &_title {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: 3px;
+  }
 
-.odds_line {
-  height: 2px;
-  background: white;
-  width: 850px;
-  margin-left: 50px;
+  &_line {
+    height: 2px;
+    background: white;
+    width: 850px;
+    margin-left: 50px;
+  }
 
-}
+  &_cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+    padding: 80px 30px 0px 0px;
+  }
 
-.odds_cards {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  align-items: flex-start;
-  padding: 80px 30px 0px 0px;
-}
+  &_card {
+    padding: 10px;
+    min-width: 300px;
+    box-sizing: border-box;
 
-.odds_card {
-  padding: 10px;
-  min-width: 300px;
-  box-sizing: border-box;
-}
+    h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
 
-.odds_card h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.odds_card p {
-  font-size: 18px;
-  line-height: 1.6;
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  }
 }

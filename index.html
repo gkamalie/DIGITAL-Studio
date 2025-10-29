@@ -12,7 +12,7 @@
 
     <header class="header">
         <img src="img/Logo.svg" alt="logo" width="104px" height="32px">
-        <nav>
+        <nav class="header__nav">
             <ul class="navi_list">
                 <li>
                     <a href="Studio">О студии</a>
@@ -35,10 +35,12 @@
             </ul>
         </nav>
         <a class="header_tel" href="tel:+79173183828">+7 (917) 318-38-28</a>
+        <button class="header-burger"><img src="img/Component 18.png"></button>
+
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <section class="basic">
 
             <div class="basic_left">
@@ -167,7 +169,6 @@
                     <h1>95%</h1>
                     <p>Запускается вовремя</p>
                 </div>
-
             </div>
         </section>
 
@@ -176,29 +177,120 @@
                 <div class="connection_title">Обратная связь</div>
                 <div class="connection_line"></div>
             </div>
-
-
             <div class="connection_left">
                 <div class="connection_left-comment">Комментарий*</div>
                 <div class="connection_left-line"></div>
             </div>
-
             <div class="connection_right">
                 <div class="connection_right-name">ФИО*</div>
                 <div class="connection_right-line"></div>
             </div>
-
             <div class="connection_tel">Номер телефона*</div>
             <div class="connection_tel-line"></div>
-
-            <div class="checkbox-container">
-                <label class="connection_checkbox">
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                    <span class="connection_text">Согласен на обработку персональных данных...</span>
-                </label>
+            <div class="connection_subtext">
+                <p>Согласен на обработку персональных данных. Ознокомлен с политикой конфеденциальности</p>
             </div>
             <div class="connection_call">Перезвонить</div>
+        </section>
+
+        <section class="reviews">
+            <div class="reviews_container">
+                <div class="reviews_title">Отзывы</div>
+                <div class="reviews_line"></div>
+            </div>
+            <div class="reviews_cards">
+                <div class="reviews_card">
+                    <h3>Компания «Борск-Строй»</h3>
+                    <p>Чекаев А.О.</p>
+                    <p>Индивидуальный предприниматель Чекаев Артем Олегович, компания «Борск-Строй» выражает Вам
+                        искреннюю благодарность за создание сайта для нашей строительной компании. Сотрудники
+                        digital-студии «Огонь» поняли не только решить все технические вопросы по созданию и наполнению
+                        сайта, но так же характеризовали доменное имя и подобрали хостинг для нашего сайта
+                        break-attoy.ru
+                        Хотелось бы особенно отметить менеджеры проекта Битенева Максима Вячеславовича за проявленный
+                        интерес к нашей компании, своевременное решение всех возникающих вопросов и выполнение всех
+                        наших пожеланий, связанных с разработкой сайта.
+                    </p>
+                </div>
+                <div class="reviews_card">
+                    <h3>Бизнес-центр «Конер»</h3>
+                    <img class="reviews_image-rev" src="img/image-rev.jpg" alt="image-rev">
+                </div>
+                <div class="reviews_card">
+                    <h3>ООО «Реформа»</h3>
+                    <p>Директор, Дулин Ю.В.</p>
+                    <p>От имени нашей компании выражены глубокую благодарность коллективу digital-студии «Огонь»
+                        взаимовыгодное сотрудничество и поддержку, оказанную в ходе разработки и оптимизации работы
+                        сайта для нашей организации, направленного на освоение.</p>
+                </div>
+                <div class="reviews_card">
+                    <h3>ООО НПП «Антарес-М»</h3>
+                    <p>Компания «АНТАРЕС-М» выражает благодарность digital-студии «Огонь» за проделанную работу.
+                        За время нашего сотрудничества были выполнены следующие виды работ:</p>
+                    <ol>
+                        <li>Доработка существующего сайта;</li>
+                        <li>Техническая оптимизация.</li>
+                    </ol>
+                </div>
+                <div class="reviews_card-text">
+                    <h3>Компания «ТетгаSomnia»</h3>
+                    <p>Исполнительный директор, ООО «Ремоссаис С», Соунцева Е.А.</p>
+                    <p>Специалисты компании Orion — настоящие профессионалы.
+                        Мы долго выбирали, кому же доверить такую ответственную работу, как создание сайта. На рынке
+                        есть множество предложений, однако нас все время что-то останавливало: с другими подрядчиками
+                        было много разногласий по срокам, цене и т.д.
+                        С Orion мы нашли общий язык с первой встречи. Это именно тот случай, когда компания
+                        действительно ориентирована на клиента, на качественный результат.
+                        Нас немного смущало то, что мы стали одними из их первых клиентов. Естественно, были сомнения.
+                        Станет заметить, что наша клиника работает всего пару лет. По себе знаем, что недолгое
+                        пребывание на рынке - не означает неопытность.
+                        Сайт получился отличным, на наш взгляд. По количеству запросов в поисковиках клиника вышла на
+                        первые позиции. Страницы сайта хорошо индикируются. С каждым месяцем растет количество запасов.
+                        Динамика, определение, положительная.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="portfolio_title">Портфолио</div>
+            <div class="portfolio_line"></div>
+            <div class="portfolio_main">
+                <div class="portfolio_text">
+                    <h3>Сайт бренда обуви ELKLAND</h3>
+                    <p>Мы разработали сайт для презентации моделей обуви бренда ELKLAND. У пользователя есть возможность
+                        не
+                        только ознакомиться с актуальным каталогом, но и оставить заявку на оптовый заказ или диверсию.
+                    </p>
+                    <p>Backend: LSTavel (Риф)</p>
+                    <p>Frontend: HTML5, SCSS, JavaScript</p>
+                    <p>UX/UI: Adobe X0</p>
+                </div>
+                <img class="portfolio_img" src="img/portfolio-img.png" alt="portfolio">
+            </div>
+        </section>
+        <section class="find">
+            <div class="find_container">
+                <div class="find_title">КАК НАС НАЙТИ</div>
+                <div class="find_line"></div>
+            </div>
+            <div class="find_container-card">
+                <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A57d59208a6981a6bb9b8eda585af66c28a3f1828f7e6952c56f7522bd247f689&amp;source=constructor"
+                    width="733" height="498" frameborder="0"></iframe>
+            </div>
+            <div>
+                <img class="find_container-img" src="img/about_after.png" alt="astronaut">
+            </div>
+
+        </section>
+
+        <section class="footer">
+            <div class="footer_container">
+                <img src="img/Logo.svg" alt="logo">
+                <div class="footer_text">Политика конфиденциальности</div>
+                <div class="footer_tel">+7 917 318 38 28</div>
+            </div>
+            <div class="footer_data">2024 ©</div>
         </section>
     </main>
 </body>
