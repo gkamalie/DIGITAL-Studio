@@ -3,13 +3,14 @@
   background-image: url("../img/fonstola.png");
   flex-direction: column;
   height: 600px;
-  padding: 80px 200px 80px 100px;
-  gap: 50px;
+  padding: 60px 200px 80px 70px;
+  gap: 97px;
 
   &_container {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    gap: 50px;
   }
 
   &_title {
@@ -22,15 +23,13 @@
   &_line {
     height: 2px;
     background: white;
-    width: 800px;
+    width: 900px;
   }
 
   &_cards {
     display: flex;
-    gap: 50px;
-    margin: 0 auto;
+    gap: 80px;
     text-align: center;
-    padding: 60px;
     line-height: 1.1;
   }
 
