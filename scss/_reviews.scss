@@ -2,14 +2,18 @@
   display: flex;
   background-image: url("../img/fonstola.png");
   flex-direction: column;
-  height: 800px;
+  height: 900px;
   padding: 80px 100px 80px 120px;
   gap: 50px;
+
 
   &_container {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    padding: 5px 10px 5px 10px;
+    width: 1250px;
+    gap: 20px;
   }
 
   &_title {
@@ -22,61 +26,80 @@
   &_line {
     height: 2px;
     background: white;
-    width: 900px;
+    width: 1300px;
   }
 
   &_cards {
-    display: flex;
     gap: 20px;
-    align-items: flex-start;
     width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 400px 432px;
+    grid-template-areas:
+      "card-1 card-2 card-3 card-4"
+      "card-1 card-5 card-5 card-5"
+      "card-1 card-5 card-5 card-5";
+  }
+
+  .card-1 {
+    grid-area: card-1;
+    height: 700px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .card-2 {
+    grid-area: card-2;
+    text-align: center;
+  }
+
+  .card-3 {
+    grid-area: card-3;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .card-4 {
+    grid-area: card-4;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .card-5 {
+    grid-area: card-5;
+    height: 280px;
+    font-size: 16px;
+    line-height: 1.1;
   }
 
   &_card {
     padding: 10px;
     min-width: 300px;
     box-sizing: border-box;
-  }
-
-  &_ h3 {
-    font-size: 20px;
-    color: white;
-    margin-bottom: 10px;
-  }
-
-  &_ p {
     font-size: 14px;
-    line-height: 1.5;
-    color: white;
-  }
-
-  &_ol {
-    font-size: 14px;
-    line-height: 1.5;
-    color: white;
-    padding: 5px 5px 5px 10px
-  }
-
-  &_container {
-    display: flex;
-    padding: 5px 10px 5px 10px;
-    width: 800px;
-  }
-
-  &_card-text {
-    font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.3;
     color: white;
     background-color: rgb(90, 58, 106);
     padding: 5px 5px 5px 5px;
-    height: 700px;
-    display: none; // убрать при задании с гридом 
-  }
+    height: 370px;
 
-  &-text h3 {
-    font-size: 20px;
-    color: white;
-    margin-bottom: 10px;
-  }
 
+    h3 {
+      font-size: 20px;
+      color: white;
+      padding: 10px 20px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      color: white;
+      padding: 10px 20px;
+    }
+
+
+    img {
+      width: 180px;
+      height: 270px;
+    }
+  }
 }
